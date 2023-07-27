@@ -1,0 +1,108 @@
+.table-title {
+  padding: 15px !important;
+  /* border-bottom: 0.5px solid rgb(214, 213, 213) !important; */
+  text-align: center !important ;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 3px 0px;
+}
+
+table {
+  box-shadow: rgba(68, 113, 218, 0.24) 0px 3px 8px;
+  background-color: #e4e4ff;
+}
+table th {
+  font-weight: 700 !important;
+  color: #4a5b6e !important;
+}
+table td {
+  color: gray;
+  font-weight: 400 !important;
+}
+
+/* staff today */
+/* styles.css */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: 280px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  /* border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* main card */
+.outer-card-header {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px !important;
+  color: #4a5b6e !important;
+  font-weight: 700 !important;
+}
+.outer-card {
+  background-color: #f8f9fa !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  border: none;
+}
+/* inner cards */
+.card-wrapper {
+  padding: 0px !important;
+  width: 220px !important;
+}
+
+/* header */
+.logo-title img {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #4a5b6e;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva;
+}
+@media (width: 576px) {
+  .profile-sidebar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .sidebar .logo-img img {
+    max-width: 70px;
+    max-height: 60px;
+  }
+  .prof-info {
+    text-align: center;
+  }
+  .card-img {
+    width: 80px;
+    height: 80px;
+  }
+  .card-name {
+    font-size: 14px;
+  }
+}
