@@ -10,12 +10,11 @@ const Login = () => {
     email: "",
     password: "",
   };
+
   return (
     <Formik
       initialValues={INITIALVALUES}
       onSubmit={async (values, { resetForm }) => {
-        // dispatch(authApi(values, history));
-        // handleAuth(values);
         resetForm();
       }}
     >
@@ -69,11 +68,10 @@ const Login = () => {
                         </div>
                       </div>{" "}
                     </>
-
                     <Link to="/task">
                       <button
                         type="submit"
-                        className="btn   btn-fill btn-block mb-2"
+                        className="btn btn-fill btn-block mb-2"
                       >
                         Login
                       </button>

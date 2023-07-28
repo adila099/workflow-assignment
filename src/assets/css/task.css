@@ -93,6 +93,21 @@
   border: 1px solid rgb(20, 42, 67) !important;
   color: white;
 }
+.btn-task:hover {
+  background-color: #4cb0d2 !important;
+  border: none !important;
+}
+.btn-task:active {
+  animation: move 1s forwards !important;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
 @media (max-width: 576px) {
   .card-title-task {
     font-size: 20px;
